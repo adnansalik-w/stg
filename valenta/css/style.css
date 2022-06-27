@@ -146,3 +146,31 @@
   ;
 
 }
+
+/* Chatbot Changes */
+.rwc-embed__thumb {
+  align-items: center;
+  justify-content: right !important;
+  width: 250px !important;
+  height: 50px !important;
+  cursor: pointer;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  background-color: rgb(235, 235, 235) !important;
+}
+
+.rwc-embed {
+  bottom: 0 !important;
+  right: 10px !important;
+}
+
+.rwc-embed--anim-none:before {
+  content: "Chat Now" !important;
+  color: black !important;
+  width: inherit;
+  font-weight: bolder;
+  position: fixed;
+  right: 75px;
+}
