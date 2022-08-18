@@ -148,7 +148,35 @@
 }
 
 /* Chatbot Changes */
-.rwc-embed__thumb {
+
+.rwc-embed__thumb{
+  color: rgba(255, 255, 255, 0) !important;
+  border-radius: 0% !important;
+  box-shadow: none !important;
+}
+
+.rwc-embed__thumb .focus-ring{
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.rwc-embed__thumb img{
+  max-height: none !important;
+  max-width: none !important;
+  height: 190px !important;
+}
+
+.rwc-embed__thumb img, .rwc-embed__thumb svg{
+  position: relative !important;
+  top: auto !important;
+  bottom: 15% !important;
+  left: 0 !important;
+}
+
+.rwc-embed__thumb span.rwc-embed__thumb-unread{
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+/* .rwc-embed__thumb {
   align-items: center;
   justify-content: right !important;
   width: 250px !important;
@@ -173,4 +201,4 @@
   font-weight: bolder;
   position: fixed;
   right: 75px;
-}
+} */
